@@ -105,17 +105,21 @@ a {
     div.dtop {
         height: 100%;
     }
-    div.zizo ul{
+
+    div.zizo ul {
         justify-content: center;
     }
+
     div .zizo li {
-      
-        padding: 5px 10px;;
+
+        padding: 5px 10px;
+        ;
     }
+
     div .info {
-      width: 100%;
+        width: 100%;
     }
-    
+
 }
 
 .logo {
@@ -167,7 +171,7 @@ a {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 15px;
-    
+
     margin: 5px;
     border-radius: 15px;
 }
@@ -181,6 +185,8 @@ ul li {
     font-family: monospace;
     font-size: 15px;
 }
-#created_at::before{
+
+#created_at::before {
     content: 'created_at:';
 }
+
